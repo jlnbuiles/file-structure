@@ -18,6 +18,7 @@ The general structure is as follows:
 * Storyboards - Contains all storyboard files
 * Resources - Any additionaly resources like media, documents, localization files and such
 
+Markup : ![Xcode Screenshot](https://github.com/jlnbuiles/file-structure/blob/master/FileStructure/Resources/Xcode%20Screenshot.png "Xcode side bar screenshot")
 
 #### Notes
 * In small enough applications, a service and repository can probably live within the same file for a given class
