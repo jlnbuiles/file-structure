@@ -1,6 +1,7 @@
 # My iOS Project File Structure
 I've been developing apps for years now and although every project is different as far as its requirements and complexity, I have started to identify some patterns with respect to how I generally end up structuring my projects. 
 
+### Structure
 After many iterations and a little bit of though, here's a general overview of how I usually organize my projects' file hierarchy:
 * **Source** - All source code
   * **Account** - Account-related classes (session-related classes, account logic, etc)
@@ -19,11 +20,13 @@ After many iterations and a little bit of though, here's a general overview of h
 * **Storyboards** - Contains all storyboard files
 * **Resources** - Any additionaly resources like media, documents, localization files and such
 
+### Result
+At the end it ends up looking something like this:
 
 ![Xcode Screenshot](https://github.com/jlnbuiles/file-structure/blob/master/FileStructure/Resources/Xcode%20Screenshot.png "Xcode side bar screenshot")
 
 
-#### Notes
+### Notes
 * In small enough applications, a service and repository can probably live within the same file for a given class
 * In large enough projects, each module might contain sub-modules as it grows in complexity
 * If you're disciplined about your design patterns (MVC, MMVC or even VIPER) these seem to fit well inside the modules folder by dividing their core elements within each module as subfolders for large projects or plain files if the project is small enough
