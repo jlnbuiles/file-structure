@@ -1,7 +1,7 @@
 # My iOS Project File Structure
 I've been developing apps for years now and although every project is different as far as its requirements and complexity, I have started to identify some patterns with respect to how I generally end up structuring my projects. 
 
-After many iterations and a little bit of though, here's a general overview of how I usually organize my project's file hierarchy:
+After many iterations and a little bit of though, here's a general overview of how I usually organize my projects' file hierarchy:
 * **Source** - All source code
   * **Account** - Account-related classes (session-related classes, account logic, etc)
   * **Application** - Application-related classes. App delegate, configuration classes, etc
