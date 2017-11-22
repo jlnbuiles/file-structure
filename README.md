@@ -23,6 +23,7 @@ Markup : ![Xcode Screenshot](https://github.com/jlnbuiles/file-structure/blob/ma
 #### Notes
 * In small enough applications, a service and repository can probably live within the same file for a given class
 * In large enough projects, each module might contain sub-modules as it grows in complexity
+* If you're disciplined about your design patterns (MVC, MMVC or even VIPER) these seem to fit well inside the modules folder by dividing their core elements within each module as subfolders for large projects or plain files if the project is small enough
 * I suggest to use folders instead of folder references for numerous reasons:
   * It organizes your project outside of Xcode
   * Makes repository more manageable (allows you to visualize project way easier in your repo)
