@@ -28,3 +28,6 @@ Markup : ![Xcode Screenshot](https://github.com/jlnbuiles/file-structure/blob/ma
   * It organizes your project outside of Xcode
   * Makes repository more manageable (allows you to visualize project way easier in your repo)
   * Allows you to do cool things like commit in a specific directory
+* It seems like Xcode **FINALLY** (tested with v.9.1) creates folders in your file system for you if you created a group inside Xcode's file navigator (via right click)
+* There are tools like Venmo's [Synx](https://github.com/venmo/synx)
+   that help you organize your existing project into folders if you haven't already. Be sure to check it out!
