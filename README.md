@@ -1,6 +1,4 @@
 # My iOS Project File Structure
-A simple file structure proposal suitable for any small or mid-sized iOS code base.
-
 I've been developing apps for years now and although every project is different as far as its requirements and complexity, I have started to identify some patterns with respect to how I generally end up structuring my projects. 
 
 After many iterations and a little bit of though, here's a general overview of how I usually organize my project's file hierarchy:
