@@ -12,7 +12,7 @@ struct URLs {
     
     let baseURL = "www.google.com"
     
-    struct User {
+    struct Users {
         let get = "/users"
         let post = "/users"
     }
