@@ -263,7 +263,6 @@
 			isa = PBXGroup;
 			children = (
 				7D3B2CBF1FC4E73C00808BBB /* Utilities */,
-				7D3B2CEE1FC5DD9800808BBB /* Foundation */,
 				7D3B2CED1FC5DD8F00808BBB /* UIView */,
 				7D3B2CF31FC5DEDD00808BBB /* UIViewController */,
 			);
@@ -276,13 +275,6 @@
 				7D3B2CF11FC5DDD300808BBB /* LoadingView.swift */,
 			);
 			path = UIView;
-			sourceTree = "<group>";
-		};
-		7D3B2CEE1FC5DD9800808BBB /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Foundation;
 			sourceTree = "<group>";
 		};
 		7D3B2CF31FC5DEDD00808BBB /* UIViewController */ = {
