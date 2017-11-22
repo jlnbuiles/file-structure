@@ -10,7 +10,7 @@ After many iterations and a little bit of though, here's a general overview of h
     * **Utilities** - General utility classes. Useful extensions, formatting utilities, convenience classes and such
     * **Element-based folders** - Folder for UIView, UITableViewCell, etc
   * **Local Persistence** - Local persistence layer. All interactions with local database (realm, core data)
-    * **Repositories** - All model-related local persitence logic
+    * **Repositories** - All model-related local persistence logic
   * **Constants** - All constants. URLs, fonts, colors, errors, etc 
   * **Models** - All models (server-side entities' representation). We would also throw here any object mapping logic
   * **Modules** - Here we can find each of the application's pieces divided by functionality
