@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  UserVC.swift
 //  FileStructure
 //
 //  Created by Julian Builes on 11/21/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class UserDetailsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
