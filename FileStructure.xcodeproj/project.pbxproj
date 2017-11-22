@@ -34,6 +34,7 @@
 		7D3B2CF21FC5DDD300808BBB /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3B2CF11FC5DDD300808BBB /* LoadingView.swift */; };
 		7D3B2CF51FC5DF3500808BBB /* KeyboardAwareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3B2CF41FC5DF3500808BBB /* KeyboardAwareVC.swift */; };
 		7D3B2CF71FC5E07A00808BBB /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3B2CF61FC5E07A00808BBB /* AppFonts.swift */; };
+		7D3B2CF91FC5E29D00808BBB /* RealmClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3B2CF81FC5E29D00808BBB /* RealmClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		7D3B2CF11FC5DDD300808BBB /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		7D3B2CF41FC5DF3500808BBB /* KeyboardAwareVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAwareVC.swift; sourceTree = "<group>"; };
 		7D3B2CF61FC5E07A00808BBB /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		7D3B2CF81FC5E29D00808BBB /* RealmClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +120,6 @@
 				7D3B2CBE1FC4E73300808BBB /* Models */,
 				7D3B2CB91FC4E69A00808BBB /* Modules */,
 				7D3B2CBD1FC4E72500808BBB /* Networking */,
-				7D3B2CC01FC4E74B00808BBB /* Repositories */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -252,6 +253,8 @@
 		7D3B2CEB1FC5DA9000808BBB /* Local Persistence */ = {
 			isa = PBXGroup;
 			children = (
+				7D3B2CF81FC5E29D00808BBB /* RealmClient.swift */,
+				7D3B2CC01FC4E74B00808BBB /* Repositories */,
 			);
 			path = "Local Persistence";
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				7D3B2CD11FC4E9B300808BBB /* User.swift in Sources */,
 				7D3B2CA21FC4E2C600808BBB /* AppDelegate.swift in Sources */,
 				7D3B2CDA1FC4EC4400808BBB /* OrdersVC.swift in Sources */,
+				7D3B2CF91FC5E29D00808BBB /* RealmClient.swift in Sources */,
 				7D3B2CD41FC4EA1100808BBB /* SessionManager.swift in Sources */,
 				7D3B2CD81FC4EB5300808BBB /* Reachability.swift in Sources */,
 				7D3B2CE41FC4ECBE00808BBB /* ProductContainerView.swift in Sources */,
