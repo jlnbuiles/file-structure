@@ -1,4 +1,4 @@
-# iOS Project File Structure
+# My iOS Project File Structure
 A simple file structure proposal suitable for any small or mid-sized iOS code base.
 
 The general structure is as follows:
@@ -19,10 +19,10 @@ The general structure is as follows:
 * Resources - Any additionaly resources like media, documents, localization files and such
 
 
-#### Caveats
-* In small enough applications, services and repositories can probably live within the same files
+#### Notes
+* In small enough applications, a service and repository can probably live within the same file for a given class
 * In large enough projects, each module might contain sub-modules as it grows in complexity
-
-TODOs
-* folder vs folder refernces
-* viewcontroller abbreviations VCs
+* I suggest to use folders instead of folder references for numerous reasons:
+  * It organizes your project outside of Xcode
+  * Makes repository more manageable (allows you to visualize project way easier in your repo)
+  * Allows you to do cool things like commit in a specific directory
